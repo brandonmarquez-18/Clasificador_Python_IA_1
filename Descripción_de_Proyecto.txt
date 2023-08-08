@@ -1,0 +1,11 @@
+1.- Importación de bibliotecas: El código comienza importando las bibliotecas necesarias para el manejo de datos y cálculos matemáticos, como csv, pandas y numpy.
+
+2.- Carga de datos: Se cargan los datos desde el archivo CSV "Data2.csv" utilizando la biblioteca pandas, y se crean dos DataFrames: uno para los atributos de entrada df (columnas 0, 1 y 2) y otro para las etiquetas ultimacolumna (columna 3).
+
+3.- Definición de pesos y datos de prueba: El código define tres vectores de pesos (w1, w2 y w3) y una matriz x que contiene cuatro ejemplos de datos de prueba, cada uno con tres atributos. Estos pesos y datos de prueba se utilizarán para realizar la clasificación.
+
+4.- Clasificador de perceptrón multicapa: A continuación, se define la función Clasificador(x, w1, w2, w3), que toma como entrada la matriz de datos de prueba x y los vectores de pesos w1, w2 y w3. Esta función realiza la clasificación para cada ejemplo de datos y asigna etiquetas a través de un algoritmo de perceptrón multicapa con tres neuronas de salida.
+
+5.- Clasificación y resultados: El código aplica la función Clasificador a la matriz x para obtener una lista de predicciones de clasificación (prediccion). Luego, compara estas predicciones con las etiquetas originales (etiquetas) para calcular el rendimiento del clasificador.
+
+6.- Resultados y rendimiento: Finalmente, el código imprime las predicciones de clasificación y el rendimiento del clasificador en porcentaje, es decir, la precisión con la que ha clasificado correctamente los ejemplos.
